@@ -11,4 +11,4 @@ Couleur de fond : #fafafa
 
 Le bolder : 300 (font-weight)
 
-Lien de déploiement : https://bastienu.github.io/etude_cas_Gmail/
+Lien de déploiement : https://bastienu.github.io/Projet_Gmail/index.html

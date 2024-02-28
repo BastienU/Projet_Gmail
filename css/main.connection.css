@@ -107,31 +107,12 @@ nav .navigation{
 /* End Menu for moving around the site */
 
 
-/* Text presentation account creation page */
-
-main h1.CreateAccount{
-    position: relative;
-    top: 42vmax;
-    left: 30vw;
-    max-width: 50rem;
-}
-
-main p.CreateAccount{
-    position: relative;
-    top: 45vmax;
-    left: 27vmax;
-    max-width: 45rem;
-    text-align: center;
-}
-/* End Text presentation account creation page */
-
-
 /* Text presentation connection page */
-main h2.connection{
+main h2{
     position: relative;
-    top: 20rem;
+    top: 10vmax;
     left: 40vw;
-    max-width: 50rem;
+    max-width: 55rem;
 }
 /* End Text presentation connection page */
 
@@ -209,6 +190,10 @@ main h2.connection{
 }
 /* End Send button */
 
+section{
+    margin-top: 100rem;
+    margin-left: 45rem;
+}
 /* End Connection form */
 
 

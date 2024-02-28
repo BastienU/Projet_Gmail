@@ -20,7 +20,7 @@
         <ul>
             <li><a href="#PourLesPros">POUR LES PROS</a></li>
             <li><a href="#Connection" class="connection">CONNEXION</a></li>
-            <li><a href="./index.html">CRÉER UN COMPTE</a></li>
+            <li><a href="./index.php">CRÉER UN COMPTE</a></li>
         </ul>
         
         <a class="navigation" href="#Connection"><img src="./asset/arrow.png" alt="bouton_flèche"></a>
@@ -31,7 +31,7 @@
 
         <!-- Creation of the connection form to log in -->
         <h2 class="connection" id="Connection">
-            Bienvenue dans votre espace null
+            Bienvenue dans votre espace de connexion
         </h2>
 
         <div class="connection-form" role="form" aria-labelledby="Connection">
@@ -41,8 +41,8 @@
                 </legend>
                 <form method="post">
 
-                <label for="mail">Mail ou login *</label>
-                <input type="email" id="mail" name="mail"
+                <label for="mailAddress">Mail ou login *</label>
+                <input type="email" id="mailAddress" name="mailAddress"
                 placeholder="Votre mail" aria-required="true"
                 >
 
@@ -57,7 +57,14 @@
                 
             </fieldset>
         </div>
-        <!-- End Creation of the second form to log in -->
+
+        <section>
+            <?php
+                require_once __DIR__ . "/controller/controller_base.class.php";
+                ControllerBase::connectionEvent();
+            ?>
+        </section>
+        <!-- End Creation of the connection form to log in -->
         
     </main>
 

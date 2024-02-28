@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Slab:wght@100;200;300&display=swap');
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    margin: 0;
+    line-height: 1.6;
+    letter-spacing: .1rem;
+    background-color: #fafafa;
+    height: 100vh;
+    max-width: 200vh;
+}
+
+h1,h2,h3,p,figure,ul,ol{
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+
+input[type="text"],
+input[type="mail"],
+input[type="submit"]{
+    border: 0;
+    background: none;
+    font-size: inherit;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* Theme */
+
+header{
+    margin-top: 3vh;
+}
+header img{
+    margin-top: 5vh;
+    margin-left: 35vw;
+}
+
+header h2{
+    text-align: center;
+    margin-top: -5vh;
+}
