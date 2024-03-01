@@ -265,8 +265,8 @@ main p.CreateAccount{
 
 /* Footer */
 footer{
-    position: absolute;
-    margin-top: 77vmax;
+    position: relative;
+    top: 65vmax;
     left: 47vw;
     max-width: 20rem;
 }

@@ -21,7 +21,7 @@ class ControllerBase{
                     {
                         ControllerBdd::addNewUser($name,$firstName,$mailAddress,$pwd); 
                         echo "L'utilisateur a été créé en BDD<BR>";
-                        header("Location:./connecter.php"); # redirection vers une autre page
+                        header("Location:./connection.php"); # redirection vers une autre page
                     }
                     catch(Exception $ex)
                     {

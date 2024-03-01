@@ -37,6 +37,47 @@ input[type="submit"]{
 
 /* theme */
 
+/* Home page */
+header{
+    max-width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1{
+    position: relative;
+    top: 14vmax;
+    left: 7.5vmax;
+    color: #fafafa;
+    max-width: 40vmax;
+    font-size: 3vmax;
+    z-index: 1;
+}
+
+header img{
+    position: absolute;
+    top: 5vh;
+    left: 0rem;
+    max-width: 100%;
+    z-index: 0;
+}
+
+header a{
+    position: absolute;
+    top: 30vmax;
+    left: 7.5vmax;
+    padding: 2rem;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    background-color: #dd5347;
+    z-index: 1;
+}
+
+/* End Home page */
+
 /* Menu for moving around the site */
 nav{
     display: inline-block;
@@ -107,20 +148,29 @@ nav .navigation{
 /* End Menu for moving around the site */
 
 
-/* Text presentation connection page */
+/* Text presentation account creation page */
+/* main{
+    position: absolute;
+    top: 10vmax;
+    height:auto;
+    left: -5vmax;
+} */
+
 main h2{
     position: relative;
     top: 10vmax;
-    left: 40vw;
-    max-width: 55rem;
+    left: 34vw;
+    max-width: 60rem;
+    /* transform: translate(-50%, 0); */
 }
-/* End Text presentation connection page */
+
+/* End Text presentation account creation page */
 
 
-/* Connection form */
+/* Account creation form */
 .connection-form fieldset{
     position: relative;
-    top: 25vh;
+    top: 15vmax;
     left: 50vw;
     width: 90rem;
     height: auto;
@@ -136,7 +186,7 @@ main h2{
 }
 
 .connection-form{
-    max-width: 90rem;
+    max-width: 150rem;
     margin: auto;
 }
 
@@ -149,15 +199,16 @@ main h2{
     width: 100%;
     line-height: 3.5rem;
     padding: .5rem;
-    transition: all .6s ease-in-out;
 }
 
 .connection-form form input[type="text"],
-.connection-form form input[type="mail"]{
+.connection-form form input[type="email"],
+.connection-form form input[type="password"]{
     
     border-bottom: solid .1rem #ccc; 
     background: rgba(236, 232, 223, 0.6); 
     width: 100%;
+    border-style: none;
 }
 
 .connection-form form [placeholder]{
@@ -181,7 +232,7 @@ main h2{
 .connection-form form input[type="submit"]{
    background-color: rgb(99, 141, 233);
     margin-top: 1rem;
-    margin-left: 25rem;
+    margin-left: 28rem;
     cursor: pointer;
     width: 35%;
     color: #fff;
@@ -190,17 +241,17 @@ main h2{
 }
 /* End Send button */
 
-section{
+/* End Account creation form */
+
+.formulaire{
     margin-top: 100rem;
     margin-left: 45rem;
 }
-/* End Connection form */
-
 
 /* Footer */
 footer{
-    position:absolute;
-    margin-top:23vmax;
+    position: relative;
+    top: 29vmax;
     left: 47vw;
     max-width: 20rem;
 }

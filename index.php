@@ -84,9 +84,9 @@
     </main>
 
     <!-- Footer -->
-<footer>
-    &copy; - MIT - 2024
-</footer>
-<!-- End Footer -->
+    <footer>
+        &copy; - MIT - 2024
+    </footer>
+    <!-- End Footer -->
 </body>
 </html>

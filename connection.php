@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
-    <link rel="stylesheet" href="./css/main.connection.css">
+    <link rel="stylesheet" href="./css/connection.css">
 </head>
 <body>
 
@@ -26,14 +26,14 @@
         <a class="navigation" href="#Connection"><img src="./asset/arrow.png" alt="bouton_flèche"></a>
     </nav>
     <!-- End Navigation menu -->
-
+    
     <main>
-
-        <!-- Creation of the connection form to log in -->
-        <h2 class="connection" id="Connection">
-            Bienvenue dans votre espace de connexion
+        <h2 id="Connection">
+            Bienvenue dans votre espace de connexion 
         </h2>
-
+    
+        <!-- Creation of the connection form to log in -->
+     
         <div class="connection-form" role="form" aria-labelledby="Connection">
             <fieldset >
                 <legend>
@@ -69,9 +69,9 @@
     </main>
 
     <!-- Footer -->
-<footer>
-    &copy; - MIT - 2024
-</footer>
-<!-- End Footer -->
+    <footer>
+        &copy; - MIT - 2024
+    </footer>
+    <!-- End Footer -->
 </body>
 </html>
